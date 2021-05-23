@@ -22,5 +22,9 @@ public class TestScan /*implements Comparable<>*/ {
         bruh.offer(10);
 
         Set<Integer> yeow = new HashSet<Integer>();
+
+        String dude = "dude";
+
+        System.out.println(dude.substring(0,0));
     }
 }
