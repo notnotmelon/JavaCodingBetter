@@ -3,6 +3,13 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+/*
+ * This Java program is designed to read data from a file
+ * named "kevin.dat" and perform some calculations on it.
+ * The data is expected to be in a specific format, with each line 
+ *containing an integer month, an integer day, a double distance, and three integers representing hours, minutes, and seconds.
+ */
+
 public class Kevin {
     public static void main(String[] args)throws IOException{
         Scanner arg = new Scanner(new File("kevin.dat"));
